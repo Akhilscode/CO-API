@@ -19,12 +19,13 @@ spring:
   mail: 
     host: smtp.gmail.com
     username: slimprince777@gmail.com
-    password: cvkbhcssbcvjcxls
+    password: vwiefcugfhdlmceg
     port: 587
     properties:
        mail:
           smtp:
                starttls:
                    enable: true
-           
-    
+       
+               ssl:
+                  protocols: TLSv1.2 
